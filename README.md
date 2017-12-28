@@ -30,11 +30,11 @@ chops/beat
 	The genesis of this project begins with BPM incoming from a DJM-900.  Any suitable BPM value can be substituted
 	and placed into time_null.  For this demonstration I've already switched the tempo 126 BPM.
 
-	bar_reset
-		Inside chops/beat/bar_reset, the bpm is used by beatCHOPs to create a series of ramps that are used
-		to power lookups and logics later.
+#	bar_reset
+#		Inside chops/beat/bar_reset, the bpm is used by beatCHOPs to create a series of ramps that are used
+#		to power lookups and logics later.
 
-		b79 (mod.buttons.b79) is the master button that resets each period to 0 and lock the beat to the incoming music.
+#		b79 (mod.buttons.b79) is the master button that resets each period to 0 and lock the beat to the incoming music.
 
 chops/profile_builder
 	Inside of profile_builder are dats that have presets loaded to them.  Each column of a dat corresponds
